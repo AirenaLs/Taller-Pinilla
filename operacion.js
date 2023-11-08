@@ -10,7 +10,7 @@ function calcularResultado() {
         resultado = num1 * num2;
     } else if (operacion === "division") {
         if (num2 !== 0) {
-            resultado = num1 - num2;
+            resultado = num1 / num2;
         } else {
             resultado = "No se puede dividir por cero";
         }
